@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: sans-serif;
+   
+}
+
+
+
+.nav-top {
+    
+    padding: 10px 20px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+}
+
+
+
+.nav-top li {
+    list-style: none;
+    display: block;
+}
+
+.nav-top li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px;
+}
+
+
+
+
+
+.nav-top ul.right-nav li a {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.sidebar {
+    position: fixed;
+    width: 120px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 99;
+    padding-top: 20px;
+}
+
+.user-image--container {
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.user-image--container .user-image {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 15px;
+}
+
+.user-image--container .user-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-image--container .user-name {
+    color: #fff;
+}
+
+.sidebar-tabs {
+    padding: 15px;
+}
+
+.sidebar-tabs li {
+    list-style: none;
+    display: block;
+    text-align: center;
+    transition: .5s;
+}
+
+.sidebar-tabs li:hover {
+    background: #777;
+}
+
+.sidebar-tabs li a {
+    text-decoration: none;
+    color:grey;
+    display: block;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.main-content--wrapper {
+    margin-left: 250PX;
+}
+
+.main-content--container {
+    padding: 20px
+}
+
+
+.main-content--container div {
+    margin-bottom: 0px;
+}
+
+.image-logo {
+    text-align: center;
+    margin-top: 66px;
+}
+.image-logo  img{
+    height: 60px;
+    width: 60px;
+}
+
+.search-ip{
+padding: 12px 11px;
+width: 100%;
+border-radius: 5px;
+border: none;
+background-color: #c6c5c5;
+}
+.search-ip-div{
+    padding-left: 13%;
+    padding-right: 11%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.profile-content{
+   
+  
+   
+    margin-top: 44px;
+}
+
+.left-profile-content{
+   
+    width: 60%;
+    
+}
+
+.uper-profile-div{
+    height: 240px;
+   
+    border-radius: 4px;
+
+}
+.left-profile-inside-div{
+   
+    padding-right: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+  
+
+.inside-img-profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.right-profile-inside-div{
+   
+    border-radius: 4px;
+}
+  
+  
+
+.down-profile-div{
+    border-radius: 4px;
+    
+    padding-top: 10px;
+    border-radius: 4px;
+
+}
+
+.right-profile-content{
+    border-radius: 4px;
+    width: 40%;
+    height: 468px;
+    padding-left: 10px;
+}
+
+.profile-pic-dp-div{
+    
+    margin-left: 45px;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 73%;
+}
+.df{
+    width: 335px;
+}
+.jp{
+    padding-left: 39%;
+}
+.profile-dp-border-div{
+  
+   border: 7px solid white;
+}
+.profile-pic-name-div{
+    width: 70%;
+   
+    padding-left: 40%;
+ 
+    padding-top: 3%;
+}
+
+.profile-pic-name-div h4{
+    color: rgb(156, 153, 153);
+}
+
+.like-symbol-div{
+    position: absolute;
+    top:200px;
+    left: 66%;
+    padding: 5px 19px;
+    
+}
+.like-symbol-div h2{
+    color: white;
+}
+.like-inside-div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black !important;
+    opacity: 0.4;
+}
+.hp{
+        margin-top: 20px;
+}
+.like-in-inside{
+    display: flex;
+}
+.white{
+    color: white;
+    margin: 4px;
+}
+@media screen and (max-device-width: 1024px) {
+
+    .sidebar{
+        display: none;
+    }
+    .col-xs-12{
+        margin: 20px 0px;
+    }
+    .df{
+        width: 100%;
+    }
+        .profile-pic-dp-div {
+            
+            overflow: hidden;
+            object-fit: cover;
+            position: relative;
+            margin-left: 0px;
+        
+        }
+        .like-symbol-div {
+            position: absolute;
+            top: 375px;
+            left: 75%;
+            padding: 5px 19px;
+        }
+}
+
+@media screen and (max-device-width: 768px) {
+
+    .df{
+        width: 100%;
+    }
+        .profile-pic-dp-div {
+            
+            overflow: hidden;
+            object-fit: cover;
+            position: relative;
+            margin-left: 0px;
+        
+        }
+        .like-symbol-div {
+            position: absolute;
+            top: 647px;
+            left: 80%;
+            padding: 5px 19px;
+        }
+}
+
+
+@media screen and (max-device-width: 320px) {
+
+    .df{
+        width: 100%;
+    }
+        .profile-pic-dp-div {
+            
+            overflow: hidden;
+            object-fit: cover;
+            position: relative;
+            margin-left: 0px;
+        
+        }
+        .like-symbol-div{
+            position: absolute;
+            top: 200px;
+            left: 201px;
+            padding: 5px 19px;
+        }
+}
+
+
